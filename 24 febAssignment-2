@@ -1,0 +1,16 @@
+Write a program to seperate odd and even numbers from the list.
+Program:-
+x=input()
+l=x.split()
+o=[]
+e=[]
+for i in l:
+    i=int(i)
+    if i%2==0:
+        e.append(i)
+    else:
+        o.append(i)
+print(o,'  ',e)
+Output:-
+1 6 2 8 7 
+[1, 7]    [6, 2, 8]
